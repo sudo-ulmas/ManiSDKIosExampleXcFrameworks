@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B88A35C72CA5292300C199C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35C62CA5292300C199C3 /* AppDelegate.swift */; };
+		B88A35C92CA5292300C199C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35C82CA5292300C199C3 /* SceneDelegate.swift */; };
+		B88A35CB2CA5292300C199C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35CA2CA5292300C199C3 /* ViewController.swift */; };
+		B88A35CE2CA5292300C199C3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B88A35CD2CA5292300C199C3 /* Base */; };
+		B88A35D02CA5292400C199C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88A35CF2CA5292400C199C3 /* Assets.xcassets */; };
+		B88A35D32CA5292400C199C3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B88A35D22CA5292400C199C3 /* Base */; };
+		B88A35E02CA5296100C199C3 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DC2CA5296100C199C3 /* FlutterPluginRegistrant.xcframework */; };
+		B88A35EA2CA529F500C199C3 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DB2CA5296100C199C3 /* App.xcframework */; };
+		B88A35EB2CA529F500C199C3 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DB2CA5296100C199C3 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88A35ED2CA529F600C199C3 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DD2CA5296100C199C3 /* Flutter.xcframework */; };
+		B88A35EE2CA529F600C199C3 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DD2CA5296100C199C3 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88A35EF2CA529F700C199C3 /* myid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DE2CA5296100C199C3 /* myid.xcframework */; };
+		B88A35F02CA529F700C199C3 /* myid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DE2CA5296100C199C3 /* myid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88A35F32CA52A7600C199C3 /* MyIdSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B88A35F22CA52A7600C199C3 /* MyIdSDK */; };
+		B88A35F72CA52B5400C199C3 /* api.m in Sources */ = {isa = PBXBuildFile; fileRef = B88A35F62CA52B5400C199C3 /* api.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B88A35EC2CA529F500C199C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B88A35EE2CA529F600C199C3 /* Flutter.xcframework in Embed Frameworks */,
+				B88A35F02CA529F700C199C3 /* myid.xcframework in Embed Frameworks */,
+				B88A35EB2CA529F500C199C3 /* App.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B88A35C32CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManiSDKIosExampleXcFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88A35C62CA5292300C199C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B88A35C82CA5292300C199C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B88A35CA2CA5292300C199C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B88A35CD2CA5292300C199C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B88A35CF2CA5292400C199C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88A35D22CA5292400C199C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B88A35D42CA5292400C199C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88A35DB2CA5296100C199C3 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "Flutter/$(CONFIGURATION)/App.xcframework"; sourceTree = "<group>"; };
+		B88A35DC2CA5296100C199C3 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "Flutter/$(CONFIGURATION)/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
+		B88A35DD2CA5296100C199C3 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "Flutter/$(CONFIGURATION)/Flutter.xcframework"; sourceTree = "<group>"; };
+		B88A35DE2CA5296100C199C3 /* myid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = myid.xcframework; path = "Flutter/$(CONFIGURATION)/myid.xcframework"; sourceTree = "<group>"; };
+		B88A35F42CA52B5300C199C3 /* ManiSDKIosExampleXcFrameworks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManiSDKIosExampleXcFrameworks-Bridging-Header.h"; sourceTree = "<group>"; };
+		B88A35F52CA52B5400C199C3 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = api.h; path = ../../mani_auth/pigeon/api.h; sourceTree = "<group>"; };
+		B88A35F62CA52B5400C199C3 /* api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = api.m; path = ../../mani_auth/pigeon/api.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88A35C02CA5292300C199C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88A35ED2CA529F600C199C3 /* Flutter.xcframework in Frameworks */,
+				B88A35E02CA5296100C199C3 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				B88A35EF2CA529F700C199C3 /* myid.xcframework in Frameworks */,
+				B88A35EA2CA529F500C199C3 /* App.xcframework in Frameworks */,
+				B88A35F32CA52A7600C199C3 /* MyIdSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88A35BA2CA5292300C199C3 = {
+			isa = PBXGroup;
+			children = (
+				B88A35C52CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks */,
+				B88A35C42CA5292300C199C3 /* Products */,
+				B88A35DA2CA5296100C199C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B88A35C42CA5292300C199C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88A35C32CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88A35C52CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B88A35F52CA52B5400C199C3 /* api.h */,
+				B88A35F62CA52B5400C199C3 /* api.m */,
+				B88A35C62CA5292300C199C3 /* AppDelegate.swift */,
+				B88A35C82CA5292300C199C3 /* SceneDelegate.swift */,
+				B88A35CA2CA5292300C199C3 /* ViewController.swift */,
+				B88A35CC2CA5292300C199C3 /* Main.storyboard */,
+				B88A35CF2CA5292400C199C3 /* Assets.xcassets */,
+				B88A35D12CA5292400C199C3 /* LaunchScreen.storyboard */,
+				B88A35D42CA5292400C199C3 /* Info.plist */,
+				B88A35F42CA52B5300C199C3 /* ManiSDKIosExampleXcFrameworks-Bridging-Header.h */,
+			);
+			path = ManiSDKIosExampleXcFrameworks;
+			sourceTree = "<group>";
+		};
+		B88A35DA2CA5296100C199C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B88A35DB2CA5296100C199C3 /* App.xcframework */,
+				B88A35DD2CA5296100C199C3 /* Flutter.xcframework */,
+				B88A35DC2CA5296100C199C3 /* FlutterPluginRegistrant.xcframework */,
+				B88A35DE2CA5296100C199C3 /* myid.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88A35C22CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88A35D72CA5292400C199C3 /* Build configuration list for PBXNativeTarget "ManiSDKIosExampleXcFrameworks" */;
+			buildPhases = (
+				B88A35BF2CA5292300C199C3 /* Sources */,
+				B88A35C02CA5292300C199C3 /* Frameworks */,
+				B88A35C12CA5292300C199C3 /* Resources */,
+				B88A35EC2CA529F500C199C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManiSDKIosExampleXcFrameworks;
+			packageProductDependencies = (
+				B88A35F22CA52A7600C199C3 /* MyIdSDK */,
+			);
+			productName = ManiSDKIosExampleXcFrameworks;
+			productReference = B88A35C32CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88A35BB2CA5292300C199C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B88A35C22CA5292300C199C3 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = B88A35BE2CA5292300C199C3 /* Build configuration list for PBXProject "ManiSDKIosExampleXcFrameworks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B88A35BA2CA5292300C199C3;
+			packageReferences = (
+				B88A35F12CA52A7600C199C3 /* XCRemoteSwiftPackageReference "myid-ios-sdk" */,
+			);
+			productRefGroup = B88A35C42CA5292300C199C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88A35C22CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88A35C12CA5292300C199C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88A35D02CA5292400C199C3 /* Assets.xcassets in Resources */,
+				B88A35D32CA5292400C199C3 /* Base in Resources */,
+				B88A35CE2CA5292300C199C3 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88A35BF2CA5292300C199C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88A35CB2CA5292300C199C3 /* ViewController.swift in Sources */,
+				B88A35C72CA5292300C199C3 /* AppDelegate.swift in Sources */,
+				B88A35F72CA52B5400C199C3 /* api.m in Sources */,
+				B88A35C92CA5292300C199C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B88A35CC2CA5292300C199C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88A35CD2CA5292300C199C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B88A35D12CA5292400C199C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88A35D22CA5292400C199C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B88A35D52CA5292400C199C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B88A35D62CA5292400C199C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88A35D82CA5292400C199C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SLMJ72SV62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)/",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ManiSDKIosExampleXcFrameworks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ManiSDKIosExampleXcFrameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ManiSDKIosExampleXcFrameworks/ManiSDKIosExampleXcFrameworks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B88A35D92CA5292400C199C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SLMJ72SV62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)/",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ManiSDKIosExampleXcFrameworks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ManiSDKIosExampleXcFrameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ManiSDKIosExampleXcFrameworks/ManiSDKIosExampleXcFrameworks-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88A35BE2CA5292300C199C3 /* Build configuration list for PBXProject "ManiSDKIosExampleXcFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88A35D52CA5292400C199C3 /* Debug */,
+				B88A35D62CA5292400C199C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88A35D72CA5292400C199C3 /* Build configuration list for PBXNativeTarget "ManiSDKIosExampleXcFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88A35D82CA5292400C199C3 /* Debug */,
+				B88A35D92CA5292400C199C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B88A35F12CA52A7600C199C3 /* XCRemoteSwiftPackageReference "myid-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.myid.uz/myid-public-code/myid-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B88A35F22CA52A7600C199C3 /* MyIdSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B88A35F12CA52A7600C199C3 /* XCRemoteSwiftPackageReference "myid-ios-sdk" */;
+			productName = MyIdSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B88A35BB2CA5292300C199C3 /* Project object */;
+}

@@ -1,0 +1,15 @@
+{
+  "originHash" : "89d78aadeccc1f27ed08bfc5f9afe9f4344b0d02ebbf6594a1eefcd7681225db",
+  "pins" : [
+    {
+      "identity" : "myid-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.myid.uz/myid-public-code/myid-ios-sdk.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e5f390094769dc18d186c67fc7d350ef4c6ec101"
+      }
+    }
+  ],
+  "version" : 3
+}
