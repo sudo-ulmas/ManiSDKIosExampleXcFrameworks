@@ -7,6 +7,8 @@
 
 import UIKit
 import Flutter
+import FlutterPluginRegistrant
+
 
 class ViewController: UIViewController, HostAppApi {
   
@@ -15,6 +17,7 @@ class ViewController: UIViewController, HostAppApi {
     private var token: Token = Token()
     private var hostInfo: HostInfo = HostInfo.make(withPaymentSystemId:"your_payment_system_id_provided_by_mani_administration", locale: "uz")
     private var api: ManiAuthApi!
+    var pluginsRegistered: Bool = false
  
     
     lazy var button: UIButton! = {
@@ -67,6 +70,7 @@ class ViewController: UIViewController, HostAppApi {
     
     @objc private func didTapButton() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        registerFlutterPluginsIfNeeded(engine: appDelegate.flutterEngine)
         let flutterViewController = FlutterViewController(
             engine: appDelegate.flutterEngine, nibName: nil, bundle: nil)
      
@@ -79,6 +83,16 @@ class ViewController: UIViewController, HostAppApi {
 
         self.navigationController?.pushViewController(flutterViewController, animated: true)
 
+    }
+    
+    func registerFlutterPluginsIfNeeded(engine: FlutterEngine) {
+
+        if !pluginsRegistered {
+            GeneratedPluginRegistrant.register(with: engine)
+            pluginsRegistered = true  // Mark plugins as registered
+        } else {
+            print("Plugins are already registered, skipping registration.")
+        }
     }
   
 
