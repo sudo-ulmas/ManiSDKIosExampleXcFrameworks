@@ -15,7 +15,7 @@ class ViewController: UIViewController, HostAppApi {
    
     
     private var token: Token = Token()
-    private var hostInfo: HostInfo = HostInfo.make(withPaymentSystemId:"your_payment_system_id_provided_by_mani_administration", locale: "uz")
+    private var hostInfo: HostInfo = HostInfo.make(withPaymentSystemId:"c8ea8d9d-9eb7-4534-9428-df75fca8598d", locale: "uz")
     private var api: ManiAuthApi!
     var pluginsRegistered: Bool = false
  
@@ -34,7 +34,7 @@ class ViewController: UIViewController, HostAppApi {
     
     func cancelWithError(_ error: AutoreleasingUnsafeMutablePointer<FlutterError?>) {
         print("hello")
-        self.navigationController?.popViewController(animated: true)
+//        self.navigationController?.popViewController(animated: true)
     }
     func authSuccessToken(_ token: Token, error: AutoreleasingUnsafeMutablePointer<FlutterError?>) {
         self.token = token
@@ -79,6 +79,7 @@ class ViewController: UIViewController, HostAppApi {
             print(error)
           }
         }
+        
       
 
         self.navigationController?.pushViewController(flutterViewController, animated: true)
