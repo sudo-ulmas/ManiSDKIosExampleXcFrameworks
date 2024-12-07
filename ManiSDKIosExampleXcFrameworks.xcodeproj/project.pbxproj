@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B87307162CEF647700593C0C /* api.m in Sources */ = {isa = PBXBuildFile; fileRef = B87307152CEF647700593C0C /* api.m */; };
 		B88A35C72CA5292300C199C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35C62CA5292300C199C3 /* AppDelegate.swift */; };
 		B88A35C92CA5292300C199C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35C82CA5292300C199C3 /* SceneDelegate.swift */; };
 		B88A35CB2CA5292300C199C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88A35CA2CA5292300C199C3 /* ViewController.swift */; };
@@ -20,6 +19,7 @@
 		B88A35EE2CA529F600C199C3 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DD2CA5296100C199C3 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B88A35EF2CA529F700C199C3 /* myid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DE2CA5296100C199C3 /* myid.xcframework */; };
 		B88A35F02CA529F700C199C3 /* myid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88A35DE2CA5296100C199C3 /* myid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8CDBD422D04624400B8FE12 /* api.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CDBD412D04624400B8FE12 /* api.m */; };
 		B8E38B182CD9FA5300C6A6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88A35CC2CA5292300C199C3 /* Main.storyboard */; };
 		B8E38B1B2CDA032400C6A6E3 /* MyIdSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B8E38B1A2CDA032400C6A6E3 /* MyIdSDK */; };
 /* End PBXBuildFile section */
@@ -41,8 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B87307142CEF647700593C0C /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
-		B87307152CEF647700593C0C /* api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = api.m; sourceTree = "<group>"; };
 		B88A35C32CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManiSDKIosExampleXcFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88A35C62CA5292300C199C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B88A35C82CA5292300C199C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		B88A35DD2CA5296100C199C3 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "Flutter/$(CONFIGURATION)/Flutter.xcframework"; sourceTree = "<group>"; };
 		B88A35DE2CA5296100C199C3 /* myid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = myid.xcframework; path = "Flutter/$(CONFIGURATION)/myid.xcframework"; sourceTree = "<group>"; };
 		B88A35F42CA52B5300C199C3 /* ManiSDKIosExampleXcFrameworks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManiSDKIosExampleXcFrameworks-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8CDBD402D04624400B8FE12 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		B8CDBD412D04624400B8FE12 /* api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = api.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		B88A35C52CA5292300C199C3 /* ManiSDKIosExampleXcFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B87307142CEF647700593C0C /* api.h */,
-				B87307152CEF647700593C0C /* api.m */,
+				B8CDBD402D04624400B8FE12 /* api.h */,
+				B8CDBD412D04624400B8FE12 /* api.m */,
 				B88A35C62CA5292300C199C3 /* AppDelegate.swift */,
 				B88A35C82CA5292300C199C3 /* SceneDelegate.swift */,
 				B88A35CA2CA5292300C199C3 /* ViewController.swift */,
@@ -200,7 +200,7 @@
 			files = (
 				B88A35CB2CA5292300C199C3 /* ViewController.swift in Sources */,
 				B88A35C72CA5292300C199C3 /* AppDelegate.swift in Sources */,
-				B87307162CEF647700593C0C /* api.m in Sources */,
+				B8CDBD422D04624400B8FE12 /* api.m in Sources */,
 				B88A35C92CA5292300C199C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

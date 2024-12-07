@@ -15,7 +15,7 @@ class ViewController: UIViewController, HostAppApi {
    
     
     private var token: Token = Token()
-    private var hostInfo: HostInfo = HostInfo.make(withPaymentSystemId:"You payment system id", locale: "uz", environment: EnvironmentBox(value: Environment.prod))
+    private var hostInfo: HostInfo = HostInfo.make(withPaymentSystemId:"your payment system id", locale: "uz",pinfl: "", environment: ManiEnvironmentBox(value: ManiEnvironment.prod),  residentType: ManiResidentTypeBox(value: ManiResidentType.resident))
     private var api: ManiAuthApi!
     var pluginsRegistered: Bool = false
  
